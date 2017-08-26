@@ -1,7 +1,32 @@
 .container {
-    
+    width: 100%;
+    height: 100%;
 }
 
 .logo {
     
+}
+
+.col {
+    width: 33%;
+    display: inline-block;
+}
+
+.nav {
+    float: left;
+    list-style: none;
+}
+
+header {
+    width: 100%;
+}
+
+header .logo {
+    display: inline-block;
+    width: 33%;
+}
+
+header .nav {
+    display: inline-block;
+    width: 33%;
 }
