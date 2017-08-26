@@ -9,24 +9,29 @@
 
 .col {
     width: 33%;
-    display: inline-block;
+    float:left
 }
 
-.nav {
+.nav li {
     float: left;
     list-style: none;
+    margin-left: 20px;
 }
 
 header {
+    background-color: #eee;
+    height: 100px;
     width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
 }
 
 header .logo {
-    display: inline-block;
     width: 33%;
 }
 
 header .nav {
-    display: inline-block;
+    float: right;
     width: 33%;
 }
